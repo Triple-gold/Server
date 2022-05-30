@@ -9,7 +9,7 @@ module.exports = {
       "description": "Main title of the blog article",
 "type": "string"
     },
-    "allText": {
+    "alltext": {
       "description": "Body text of the blog article",
       "type": "string"
     },
@@ -31,5 +31,5 @@ module.exports = {
       "minimum": 0
     },
   },
-  "required": ["title", "allText", "authorID"]
+  "required": ["title"]
 }
